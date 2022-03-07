@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafbfc;
+}
+header{
+    background-color: rgb(170, 6, 6);
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+}
+main{
+    padding: 60px 100px;
+}
+.cartao{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: top 15px;
+    border-radius: 5px;
+}
+.lineinput{
+    display: grid;
+    margin-top: 10px;
+}
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+    margin-bottom: 20px;
+}
+button{
+    margin-top: 15px;
+    border: 0;
+    padding: 10px;
+    outline: 0;
+    background-color:rgb(170, 6, 6) ;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+button:hover{
+    background-color: black;
+}
+.conteudo{
+    margin-top: 15px;
+}
+.center{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+    }
+    table th{
+        background-color: #ccc;
+        padding: 1px 5px;
+        text-align: left;
+    }
+
+    table td img{
+        width: 22px;
+    }
